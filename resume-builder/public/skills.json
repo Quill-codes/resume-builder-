@@ -1,0 +1,252 @@
+{
+  "categories": {
+    "Programming Languages": [
+      "JavaScript", "TypeScript", "Python", "Java", "C++", "C#", "C",
+      "Go", "Rust", "Ruby", "PHP", "Swift", "Kotlin", "Scala", "R",
+      "MATLAB", "Perl", "Haskell", "Elixir", "Clojure", "Dart", "Lua",
+      "Shell Scripting", "Bash", "PowerShell", "SQL", "Assembly",
+      "Objective-C", "F#", "Groovy", "Julia", "Solidity", "COBOL",
+      "Fortran", "Erlang", "Zig", "Nim", "Crystal", "OCaml", "Prolog"
+    ],
+    "Frontend Frameworks": [
+      "React", "Next.js", "Vue.js", "Nuxt.js", "Angular", "Svelte",
+      "SvelteKit", "Astro", "Gatsby", "Remix", "Solid.js", "Qwik",
+      "Preact", "Alpine.js", "Lit", "Stencil", "Ember.js", "Backbone.js",
+      "jQuery", "HTMX", "Stimulus"
+    ],
+    "Frontend Technologies": [
+      "HTML5", "CSS3", "Sass", "SCSS", "Less", "Tailwind CSS",
+      "Bootstrap", "Material UI", "Chakra UI", "Ant Design", "shadcn/ui",
+      "Styled Components", "CSS Modules", "PostCSS", "Webpack", "Vite",
+      "Rollup", "Parcel", "esbuild", "Turbopack", "SWC",
+      "Web Components", "PWA", "Service Workers", "WebGL", "Three.js",
+      "D3.js", "Chart.js", "Canvas API", "SVG", "WebAssembly",
+      "Framer Motion", "GSAP", "Lottie", "Storybook", "Chromatic"
+    ],
+    "Backend Frameworks": [
+      "Node.js", "Express.js", "Fastify", "NestJS", "Koa", "Hono",
+      "Django", "Flask", "FastAPI", "Spring Boot", "Spring MVC",
+      "Ruby on Rails", "Laravel", "Symfony", "ASP.NET Core",
+      "ASP.NET MVC", "Gin", "Echo", "Fiber", "Phoenix", "Actix Web",
+      "Rocket", "Axum", "Ktor", "Micronaut", "Quarkus"
+    ],
+    "Databases": [
+      "PostgreSQL", "MySQL", "MariaDB", "SQLite", "Microsoft SQL Server",
+      "Oracle Database", "MongoDB", "Redis", "Cassandra", "DynamoDB",
+      "CouchDB", "Neo4j", "InfluxDB", "TimescaleDB", "Elasticsearch",
+      "Firebase Realtime Database", "Firestore", "Supabase",
+      "PlanetScale", "CockroachDB", "Prisma", "Drizzle ORM",
+      "TypeORM", "Sequelize", "Mongoose", "SQLAlchemy", "Knex.js",
+      "Neon", "Turso", "Memcached", "Amazon RDS", "Azure SQL"
+    ],
+    "Cloud & DevOps": [
+      "AWS", "Amazon EC2", "Amazon S3", "Amazon Lambda", "Amazon ECS",
+      "Amazon EKS", "AWS CloudFormation", "AWS CDK",
+      "Microsoft Azure", "Azure Functions", "Azure DevOps",
+      "Google Cloud Platform", "Google Cloud Functions", "Google Cloud Run",
+      "Firebase", "Vercel", "Netlify", "Heroku", "DigitalOcean",
+      "Cloudflare", "Cloudflare Workers", "Railway", "Render", "Fly.io",
+      "Docker", "Kubernetes", "Helm", "Terraform", "Ansible",
+      "Pulumi", "Jenkins", "GitHub Actions", "GitLab CI/CD",
+      "CircleCI", "Travis CI", "ArgoCD", "Prometheus", "Grafana",
+      "Datadog", "New Relic", "Sentry", "PagerDuty", "Nginx",
+      "Apache", "Caddy", "HAProxy", "Load Balancing", "CDN",
+      "Serverless Framework", "AWS SAM"
+    ],
+    "Mobile Development": [
+      "React Native", "Flutter", "Dart", "Swift", "SwiftUI",
+      "Kotlin", "Jetpack Compose", "Xamarin", ".NET MAUI",
+      "Ionic", "Capacitor", "Cordova", "Expo",
+      "Android SDK", "iOS SDK", "Xcode", "Android Studio",
+      "App Store Optimization", "Mobile UI/UX", "Push Notifications",
+      "Firebase Cloud Messaging", "Core Data", "Room Database",
+      "SQLite Mobile", "Realm"
+    ],
+    "Data Science & ML": [
+      "Machine Learning", "Deep Learning", "Natural Language Processing",
+      "Computer Vision", "TensorFlow", "PyTorch", "Keras", "scikit-learn",
+      "Pandas", "NumPy", "SciPy", "Matplotlib", "Seaborn", "Plotly",
+      "Jupyter Notebook", "Apache Spark", "Hadoop", "Databricks",
+      "MLflow", "Kubeflow", "Hugging Face", "OpenAI API",
+      "LangChain", "RAG", "Vector Databases", "Pinecone", "Weaviate",
+      "BERT", "GPT", "Transformers", "Reinforcement Learning",
+      "Feature Engineering", "Model Deployment", "A/B Testing",
+      "Statistical Analysis", "Data Visualization", "Data Mining",
+      "ETL", "Data Warehousing", "Apache Kafka", "Apache Airflow",
+      "dbt", "Snowflake", "BigQuery", "Redshift", "Power BI",
+      "Tableau", "Looker", "Metabase"
+    ],
+    "Testing": [
+      "Jest", "Vitest", "Mocha", "Chai", "Jasmine",
+      "Cypress", "Playwright", "Selenium", "Puppeteer",
+      "React Testing Library", "Testing Library",
+      "Enzyme", "Supertest", "MSW", "Storybook Testing",
+      "JUnit", "pytest", "unittest", "RSpec", "xUnit",
+      "TestNG", "Mockito", "Sinon", "k6", "Locust",
+      "Apache JMeter", "Artillery", "Postman",
+      "TDD", "BDD", "Integration Testing", "E2E Testing",
+      "Unit Testing", "Performance Testing", "Load Testing",
+      "Security Testing", "Accessibility Testing", "Visual Regression Testing"
+    ],
+    "Version Control & Collaboration": [
+      "Git", "GitHub", "GitLab", "Bitbucket", "Azure Repos",
+      "Git Flow", "Trunk-Based Development",
+      "Code Review", "Pull Requests", "Merge Strategies",
+      "Monorepo", "Nx", "Turborepo", "Lerna",
+      "Conventional Commits", "Semantic Versioning"
+    ],
+    "API & Integration": [
+      "REST API", "GraphQL", "gRPC", "WebSocket", "Server-Sent Events",
+      "tRPC", "Apollo GraphQL", "Relay", "Swagger", "OpenAPI",
+      "Postman", "Insomnia", "API Gateway", "OAuth 2.0", "JWT",
+      "SAML", "OpenID Connect", "API Rate Limiting", "Webhooks",
+      "Microservices", "Event-Driven Architecture", "Message Queues",
+      "RabbitMQ", "Apache Kafka", "Amazon SQS", "NATS",
+      "Protocol Buffers", "Thrift", "SOAP", "XML"
+    ],
+    "Security": [
+      "Cybersecurity", "OWASP Top 10", "Penetration Testing",
+      "Vulnerability Assessment", "Authentication", "Authorization",
+      "Encryption", "SSL/TLS", "PKI", "CORS", "CSP", "XSS Prevention",
+      "SQL Injection Prevention", "CSRF Prevention",
+      "Identity and Access Management", "RBAC", "ABAC",
+      "Security Auditing", "Compliance", "GDPR", "HIPAA", "SOC 2",
+      "ISO 27001", "Network Security", "Firewall Configuration",
+      "SIEM", "Incident Response", "Threat Modeling",
+      "HashiCorp Vault", "AWS KMS", "Azure Key Vault"
+    ],
+    "Design & Creative": [
+      "Figma", "Adobe XD", "Sketch", "InVision", "Zeplin",
+      "Adobe Photoshop", "Adobe Illustrator", "Adobe After Effects",
+      "Adobe Premiere Pro", "Adobe InDesign", "Canva",
+      "UI Design", "UX Design", "User Research", "Wireframing",
+      "Prototyping", "Design Systems", "Responsive Design",
+      "Accessibility", "WCAG", "Color Theory", "Typography",
+      "Interaction Design", "Information Architecture",
+      "Usability Testing", "Heuristic Evaluation",
+      "Design Thinking", "Human-Centered Design"
+    ],
+    "Project Management": [
+      "Agile", "Scrum", "Kanban", "SAFe", "Lean",
+      "Waterfall", "Sprint Planning", "Retrospectives",
+      "Jira", "Confluence", "Trello", "Asana", "Monday.com",
+      "Linear", "Notion", "ClickUp", "Basecamp",
+      "Product Management", "Roadmapping", "OKRs", "KPIs",
+      "Risk Management", "Stakeholder Management",
+      "Resource Planning", "Budgeting", "Gantt Charts",
+      "PMP", "PRINCE2", "Six Sigma"
+    ],
+    "Soft Skills": [
+      "Leadership", "Communication", "Team Collaboration",
+      "Problem Solving", "Critical Thinking", "Analytical Thinking",
+      "Time Management", "Adaptability", "Creativity",
+      "Decision Making", "Conflict Resolution", "Negotiation",
+      "Presentation Skills", "Public Speaking", "Technical Writing",
+      "Mentoring", "Coaching", "Cross-functional Collaboration",
+      "Emotional Intelligence", "Strategic Planning",
+      "Attention to Detail", "Self-Motivation", "Work Ethic",
+      "Customer Focus", "Interpersonal Skills", "Active Listening",
+      "Flexibility", "Initiative", "Accountability",
+      "Cultural Awareness", "Remote Collaboration"
+    ],
+    "Architecture & Patterns": [
+      "System Design", "Software Architecture", "Design Patterns",
+      "SOLID Principles", "Clean Architecture", "Domain-Driven Design",
+      "Event Sourcing", "CQRS", "Microservices Architecture",
+      "Monolithic Architecture", "Serverless Architecture",
+      "Service-Oriented Architecture", "API-First Design",
+      "Twelve-Factor App", "Distributed Systems",
+      "High Availability", "Scalability", "Performance Optimization",
+      "Caching Strategies", "Database Sharding", "Replication",
+      "CAP Theorem", "Eventual Consistency",
+      "Load Balancing", "Rate Limiting", "Circuit Breaker",
+      "Observability", "Logging", "Monitoring", "Tracing"
+    ],
+    "Blockchain & Web3": [
+      "Blockchain", "Ethereum", "Solidity", "Smart Contracts",
+      "Web3.js", "Ethers.js", "Hardhat", "Truffle", "Foundry",
+      "DeFi", "NFT", "IPFS", "Chainlink", "The Graph",
+      "Polygon", "Solana", "Rust (Solana)", "Anchor",
+      "Wallet Integration", "MetaMask", "WalletConnect",
+      "Tokenomics", "DAO", "Consensus Mechanisms"
+    ],
+    "Game Development": [
+      "Unity", "Unreal Engine", "Godot", "C# (Unity)", "C++ (Unreal)",
+      "Game Design", "Level Design", "3D Modeling", "Blender",
+      "Maya", "Substance Painter", "Shader Programming",
+      "Physics Simulation", "AI for Games", "Multiplayer Networking",
+      "Game Audio", "FMOD", "Wwise"
+    ],
+    "IoT & Embedded": [
+      "IoT", "Embedded Systems", "Arduino", "Raspberry Pi",
+      "ESP32", "MQTT", "Zigbee", "Bluetooth LE", "LoRa",
+      "RTOS", "FreeRTOS", "Embedded C", "Firmware Development",
+      "PCB Design", "Sensor Integration", "Edge Computing"
+    ]
+  },
+  "atsKeywords": {
+    "highImpact": [
+      "JavaScript", "TypeScript", "Python", "Java", "React", "Node.js",
+      "AWS", "Docker", "Kubernetes", "SQL", "PostgreSQL", "MongoDB",
+      "REST API", "GraphQL", "Git", "CI/CD", "Agile", "Scrum",
+      "Machine Learning", "TensorFlow", "Data Analysis",
+      "System Design", "Microservices", "Cloud Computing",
+      "Full Stack", "Frontend", "Backend", "DevOps",
+      "Project Management", "Leadership", "Communication",
+      "Problem Solving", "Product Management", "UX Design",
+      "Security", "Performance Optimization", "Scalability",
+      "C++", "C#", "Go", "Ruby", "Swift", "Kotlin",
+      "Angular", "Vue.js", "Next.js", "Spring Boot", "Django",
+      "Redis", "Elasticsearch", "Terraform", "Linux"
+    ],
+    "mediumImpact": [
+      "Sass", "Less", "Tailwind CSS", "Bootstrap", "Material UI",
+      "Webpack", "Vite", "Jest", "Cypress", "Playwright",
+      "Jenkins", "GitHub Actions", "Firebase", "Vercel",
+      "Serverless", "WebSocket", "OAuth", "JWT",
+      "Figma", "Sketch", "Adobe XD",
+      "Pandas", "NumPy", "Jupyter",
+      "Kanban", "Jira", "Confluence",
+      "Code Review", "Mentoring", "Technical Writing",
+      "Accessibility", "Responsive Design", "SEO",
+      "Cross-Browser Testing", "Mobile Development",
+      "React Native", "Flutter", "Expo",
+      "Storybook", "Design Systems", "Clean Code",
+      "SOLID Principles", "Design Patterns", "TDD"
+    ],
+    "actionVerbs": [
+      "Achieved", "Accelerated", "Accomplished", "Administered",
+      "Advised", "Analyzed", "Architected", "Assembled",
+      "Automated", "Boosted", "Built", "Championed",
+      "Coached", "Collaborated", "Consolidated", "Contributed",
+      "Coordinated", "Created", "Cultivated", "Customized",
+      "Debugged", "Decreased", "Defined", "Delivered",
+      "Deployed", "Designed", "Developed", "Directed",
+      "Documented", "Drove", "Eliminated", "Enabled",
+      "Engineered", "Enhanced", "Established", "Evaluated",
+      "Exceeded", "Executed", "Expanded", "Expedited",
+      "Facilitated", "Formulated", "Founded", "Generated",
+      "Grew", "Guided", "Headed", "Identified",
+      "Implemented", "Improved", "Increased", "Influenced",
+      "Initiated", "Innovated", "Integrated", "Introduced",
+      "Launched", "Led", "Leveraged", "Maintained",
+      "Managed", "Maximized", "Mentored", "Migrated",
+      "Minimized", "Modernized", "Monitored", "Negotiated",
+      "Optimized", "Orchestrated", "Overhauled", "Oversaw",
+      "Partnered", "Performed", "Piloted", "Pioneered",
+      "Planned", "Presented", "Prioritized", "Produced",
+      "Programmed", "Proposed", "Prototyped", "Provided",
+      "Published", "Rebuilt", "Recognized", "Recommended",
+      "Redesigned", "Reduced", "Refactored", "Reformed",
+      "Remodeled", "Reorganized", "Replaced", "Reported",
+      "Researched", "Resolved", "Restructured", "Revamped",
+      "Reviewed", "Revolutionized", "Scaled", "Secured",
+      "Simplified", "Solved", "Spearheaded", "Standardized",
+      "Steered", "Streamlined", "Strengthened", "Supervised",
+      "Supported", "Surpassed", "Synthesized", "Tested",
+      "Trained", "Transformed", "Troubleshot", "Unified",
+      "Updated", "Upgraded", "Utilized", "Validated",
+      "Visualized", "Won"
+    ]
+  }
+}

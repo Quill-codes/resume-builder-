@@ -1,0 +1,237 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "shadcn/tailwind.css";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ==============================
+   Design Tokens from DESIGN.md
+   ============================== */
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --font-sans: var(--font-sans);
+  --font-mono: var(--font-geist-mono);
+  --font-heading: var(--font-sans);
+
+  /* shadcn color tokens */
+  --color-sidebar-ring: var(--sidebar-ring);
+  --color-sidebar-border: var(--sidebar-border);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-primary-foreground: var(--sidebar-primary-foreground);
+  --color-sidebar-primary: var(--sidebar-primary);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar: var(--sidebar);
+  --color-chart-5: var(--chart-5);
+  --color-chart-4: var(--chart-4);
+  --color-chart-3: var(--chart-3);
+  --color-chart-2: var(--chart-2);
+  --color-chart-1: var(--chart-1);
+  --color-ring: var(--ring);
+  --color-input: var(--input);
+  --color-border: var(--border);
+  --color-destructive: var(--destructive);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-accent: var(--accent);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-muted: var(--muted);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-secondary: var(--secondary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-primary: var(--primary);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-popover: var(--popover);
+  --color-card-foreground: var(--card-foreground);
+  --color-card: var(--card);
+
+  /* Radii */
+  --radius-sm: calc(var(--radius) * 0.6);
+  --radius-md: calc(var(--radius) * 0.8);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) * 1.4);
+  --radius-2xl: calc(var(--radius) * 1.8);
+  --radius-3xl: calc(var(--radius) * 2.2);
+  --radius-4xl: calc(var(--radius) * 2.6);
+
+  /* Pinterest Design System Colors */
+  --color-pinterest-red: #e60023;
+  --color-pinterest-red-pressed: #cc001f;
+  --color-pinterest-ink: #000000;
+  --color-pinterest-ink-soft: #211922;
+  --color-pinterest-body: #33332e;
+  --color-pinterest-charcoal: #262622;
+  --color-pinterest-mute: #62625b;
+  --color-pinterest-ash: #91918c;
+  --color-pinterest-stone: #c8c8c1;
+  --color-pinterest-hairline: #dadad3;
+  --color-pinterest-hairline-soft: #e5e5e0;
+  --color-pinterest-canvas: #ffffff;
+  --color-pinterest-surface-soft: #fbfbf9;
+  --color-pinterest-surface-card: #f6f6f3;
+  --color-pinterest-surface-dark: #262622;
+  --color-pinterest-success-deep: #103c25;
+  --color-pinterest-success-pale: #c7f0da;
+  --color-pinterest-error: #9e0a0a;
+  --color-pinterest-focus-blue: #435ee5;
+}
+
+:root {
+  --background: #fbfbf9;
+  --foreground: #33332e;
+  --card: #ffffff;
+  --card-foreground: #33332e;
+  --popover: #ffffff;
+  --popover-foreground: #33332e;
+  --primary: #e60023;
+  --primary-foreground: #ffffff;
+  --secondary: #e5e5e0;
+  --secondary-foreground: #000000;
+  --muted: #f6f6f3;
+  --muted-foreground: #62625b;
+  --accent: #f6f6f3;
+  --accent-foreground: #000000;
+  --destructive: #9e0a0a;
+  --border: #dadad3;
+  --input: #dadad3;
+  --ring: #e60023;
+  --chart-1: #e60023;
+  --chart-2: #435ee5;
+  --chart-3: #103c25;
+  --chart-4: #7e238b;
+  --chart-5: #6845ab;
+  --radius: 1rem;
+  --sidebar: #ffffff;
+  --sidebar-foreground: #33332e;
+  --sidebar-primary: #e60023;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #f6f6f3;
+  --sidebar-accent-foreground: #33332e;
+  --sidebar-border: #dadad3;
+  --sidebar-ring: #e60023;
+}
+
+.dark {
+  --background: #1a1a17;
+  --foreground: #e5e5e0;
+  --card: #262622;
+  --card-foreground: #e5e5e0;
+  --popover: #262622;
+  --popover-foreground: #e5e5e0;
+  --primary: #e60023;
+  --primary-foreground: #ffffff;
+  --secondary: #33332e;
+  --secondary-foreground: #e5e5e0;
+  --muted: #2a2a26;
+  --muted-foreground: #91918c;
+  --accent: #33332e;
+  --accent-foreground: #e5e5e0;
+  --destructive: #cc001f;
+  --border: #3d3d38;
+  --input: #3d3d38;
+  --ring: #e60023;
+  --chart-1: #e60023;
+  --chart-2: #617bff;
+  --chart-3: #c7f0da;
+  --chart-4: #7e238b;
+  --chart-5: #6845ab;
+  --sidebar: #1a1a17;
+  --sidebar-foreground: #e5e5e0;
+  --sidebar-primary: #e60023;
+  --sidebar-primary-foreground: #ffffff;
+  --sidebar-accent: #262622;
+  --sidebar-accent-foreground: #e5e5e0;
+  --sidebar-border: #3d3d38;
+  --sidebar-ring: #e60023;
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  html {
+    @apply font-sans;
+  }
+}
+
+/* ==============================
+   Resume Template Print Styles
+   ============================== */
+
+.resume-page {
+  width: 794px;
+  min-height: 1123px;
+  background: white;
+  color: #000;
+  position: relative;
+  overflow: hidden;
+}
+
+/* Scrollbar Styles */
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--border);
+  border-radius: 9999px;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: var(--muted-foreground);
+}
+
+/* ATS Score Gauge Animation */
+@keyframes gauge-fill {
+  from { stroke-dashoffset: 283; }
+}
+
+/* Fade in animation */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(8px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.4s ease-out forwards;
+}
+
+/* Staggered children animation */
+.stagger-children > * {
+  opacity: 0;
+  animation: fade-in-up 0.3s ease-out forwards;
+}
+
+.stagger-children > *:nth-child(1) { animation-delay: 0ms; }
+.stagger-children > *:nth-child(2) { animation-delay: 50ms; }
+.stagger-children > *:nth-child(3) { animation-delay: 100ms; }
+.stagger-children > *:nth-child(4) { animation-delay: 150ms; }
+.stagger-children > *:nth-child(5) { animation-delay: 200ms; }
+.stagger-children > *:nth-child(6) { animation-delay: 250ms; }
+.stagger-children > *:nth-child(7) { animation-delay: 300ms; }
+.stagger-children > *:nth-child(8) { animation-delay: 350ms; }
+
+@media print {
+  body {
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+  .resume-page {
+    box-shadow: none !important;
+    margin: 0 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+}

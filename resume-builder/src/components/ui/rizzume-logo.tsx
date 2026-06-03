@@ -1,0 +1,21 @@
+export function RizzumeLogo({ size = 28, className = '' }: { size?: number; className?: string }) {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      viewBox="0 0 512 512"
+      width={size}
+      height={size}
+      className={className}
+    >
+      <circle cx="256" cy="256" r="256" fill="#e60023" />
+      <path 
+        d="M 200,350 V 170 h 40 v 40 c 15,-25 35,-40 65,-40 c 15,0 30,5 45,15 l -20,45 c -10,-10 -25,-15 -35,-15 c -30,0 -50,25 -55,55 v 80 z" 
+        fill="#ffffff" 
+        stroke="#ffffff" 
+        strokeWidth="16" 
+        strokeLinejoin="round" 
+        strokeLinecap="round" 
+      />
+    </svg>
+  );
+}
