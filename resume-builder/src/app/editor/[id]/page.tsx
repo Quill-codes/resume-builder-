@@ -138,7 +138,7 @@ function EditorContent() {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
-  const handleExportPDF = async () => {
+  async function handleExportPDF() {
     const supabase = createClient();
     const { data: { session } } = await supabase.auth.getSession();
     
