@@ -300,8 +300,6 @@ function EditorContent() {
             </div>
 
             <Accordion
-              type="single"
-              collapsible
               className="space-y-2"
             >
               <AccordionItem value="template" className="border-border/50 bg-card/50 rounded-xl px-4 shadow-sm">
